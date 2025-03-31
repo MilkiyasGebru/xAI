@@ -1,0 +1,48 @@
+export default function Models() {
+    return (
+        <div className="flex flex-col py-6">
+            <p>[ For projects big and small ]</p>
+            <h2 className="text-3xl font-semibold">Models and Pricing</h2>
+            <div className="flex flex-col">
+                <div className="flex justify-between py-3 border-b border-gray-600">
+                    <span>Model</span>
+                    <div className="flex justify-between w-1/2">
+                        <span>Context</span>
+                        <span>Text Input</span>
+                        <span>Image Input</span>
+                        <span>Completion</span>
+
+                    </div>
+                </div>
+                <div className="flex justify-between py-3 border-b border-gray-600">
+                    <div className="flex flex-col">
+                        <span className="text-2xl font-semibold">grok-2-1212</span>
+                        <span>Grok 2 model supporting function calling and structured outputs.</span>
+                    </div>
+                    <div className="flex justify-between w-1/2 items-center text-xl font-semibold">
+                        <span>131,072</span>
+                        <span>$2.00	</span>
+                        <span>-</span>
+                        <span>$10.00</span>
+
+                    </div>
+                </div>
+                <div className="flex justify-between py-3 border-b border-gray-600">
+                    <div className="flex flex-col w-1/4 flex-wrap">
+                        <span className="text-2xl font-semibold">grok-2-1212</span>
+                        <span>Grok 2 model supporting function  calling and structured outputs.</span>
+                    </div>
+                    <div className="flex justify-between w-1/2 items-center text-xl font-semibold">
+                        <span>32,768</span>
+                        <span>$2.00	</span>
+                        <span>$2.00	</span>
+                        <span>$10.00</span>
+
+                    </div>
+                </div>
+                <span className="self-end mt-4">All pricing is per million tokens.</span>
+                <span className="self-end">Full pricing can be found within the console.</span>
+            </div>
+        </div>
+    )
+}
