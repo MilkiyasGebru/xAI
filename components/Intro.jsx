@@ -2,10 +2,11 @@ import {BiDownArrowAlt} from "react-icons/bi";
 
 export default function Intro(){
     return (
-        <div className="min-h-[90vh] flex flex-col justify-between py-12 mt-6 border-b border-gray-500">
+        <section className=" relative z-0  border-b border-gray-500">
+            <div className="min-h-[90vh] max-w-[1124px] mx-auto flex flex-col justify-between py-12 mt-6 " >
             <div className="flex flex-col gap-y-12">
                 <p className="tracking-widest text-md">[ ELEVATE YOUR APPS]</p>
-                <div className="flex flex-col text-7xl">
+                <div className="flex flex-col text-7xl text-white">
                     <p>The Next Frontier</p>
                     <p>in AI integration</p>
                 </div>
@@ -19,5 +20,6 @@ export default function Intro(){
 
             </div>
         </div>
+        </section>
     )
 }

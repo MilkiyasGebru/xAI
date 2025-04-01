@@ -4,7 +4,7 @@ import {BiMessage, BiPhotoAlbum, BiCommand} from "react-icons/bi";
 export default function Features() {
 
     return (
-        <div className="flex flex-col gap-4 mt-8 py-4">
+        <div className="flex flex-col gap-4 mt-8 py-4 max-w-[1124px] mx-auto">
             <p>[ Capabilities ]</p>
             <h2>Model that fits your needs</h2>
             <div className="flex flex-wrap">
