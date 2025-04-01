@@ -9,10 +9,10 @@ export default function Models() {
                     <div className="flex justify-between py-3 border-b border-gray-600">
                         <span>Model</span>
                         <div className="flex justify-between w-1/2">
-                            <span>Context</span>
-                            <span>Text Input</span>
-                            <span>Image Input</span>
-                            <span>Completion</span>
+                            <span className="w-1/4 flex justify-end">Context</span>
+                            <span className="w-1/4 flex justify-end">Text Input</span>
+                            <span className="w-1/4 flex justify-end">Image Input</span>
+                            <span className="w-1/4 flex justify-end">Completion</span>
 
                         </div>
                     </div>
@@ -21,11 +21,11 @@ export default function Models() {
                             <span className="text-2xl font-semibold text-white">grok-2-1212</span>
                             <span className="w-1/2 text-md tracking-tighter">Grok 2 model supporting function calling and structured outputs.</span>
                         </div>
-                        <div className="flex justify-between w-1/2 items-center text-2xl font-semibold text-white">
-                            <span>131,072</span>
-                            <span>$2.00	</span>
-                            <span>-</span>
-                            <span>$10.00</span>
+                        <div className="flex justify-between w-1/2 items-center text-2xl font-semibold text-white ">
+                            <span className="w-1/4 flex justify-end">131,072</span>
+                            <span className="w-1/4 flex justify-end">$2.00	</span>
+                            <span className="w-1/4 flex justify-end">-</span>
+                            <span className="w-1/4 flex justify-end">$10.00</span>
 
                         </div>
                     </div>
@@ -34,11 +34,11 @@ export default function Models() {
                             <span className="text-2xl font-semibold text-white">grok-2-1212</span>
                             <span className="tracking-tighter">Grok 2 model supporting function  calling and structured outputs.</span>
                         </div>
-                        <div className="flex justify-between w-1/2 items-center text-2xl font-semibold text-white">
-                            <span>32,768</span>
-                            <span>$2.00	</span>
-                            <span>$2.00	</span>
-                            <span>$10.00</span>
+                        <div className="flex justify-end w-1/2 items-center text-2xl font-semibold text-white">
+                            <span className="w-1/4 text-right">32,768</span>
+                            <span className="w-1/4 text-right">$2.00	</span>
+                            <span className="w-1/4 text-right">$2.00	</span>
+                            <span className="w-1/4 text-right">$10.00</span>
 
                         </div>
                     </div>
