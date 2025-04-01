@@ -1,4 +1,5 @@
 import {BiDownArrowAlt} from "react-icons/bi";
+import {HiArrowDown} from "react-icons/hi";
 
 export default function Intro(){
     return (
@@ -11,8 +12,8 @@ export default function Intro(){
                     <p>in AI integration</p>
                 </div>
             </div>
-            <div className="flex justify-between">
-                <BiDownArrowAlt className="text-4xl font-thin" />
+            <div className="flex justify-between items-center">
+                <HiArrowDown className="text-2xl font-thin text-white" />
                 <div className="flex gap-x-3">
                     <button className="px-3 py-2 rounded-full border bg-white text-black">DOCUMENTATION</button>
                     <button className="px-3 py-2 rounded-full border">PRICING</button>
