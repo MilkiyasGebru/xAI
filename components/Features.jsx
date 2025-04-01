@@ -11,40 +11,40 @@ export default function Features() {
                 {/*Features*/}
                 <div className="flex flex-col  w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
                     <BiMessage className="text-4xl" />
-                    <h3 className=" mt-12 mb-6 text-white text-2xl">Text</h3>
+                    <h3 className="mt-12 mb-6 text-white text-2xl">Text</h3>
                     <p className="text-gray-400">The cornerstone of interaction; summarize articles, generate
                         creative writing, assist with coding tasks and more
                     </p>
                 </div>
-                <div className="flex flex-col gap-3 w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
+                <div className="flex flex-col  w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
                     <BiPhotoAlbum className="text-4xl" />
                     <h3 className="mt-12 mb-6 text-white text-2xl">Text</h3>
                     <p>The cornerstone of interaction; summarize articles, generate
                         creative writing, assist with coding tasks and more
                     </p>
                 </div>
-                <div className="flex flex-col gap-3 w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
+                <div className="flex flex-col  w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
                     <BiCommand className="text-4xl" />
                     <h3 className="mt-12 mb-6 text-white text-2xl">Text</h3>
                     <p>The cornerstone of interaction; summarize articles, generate
                         creative writing, assist with coding tasks and more
                     </p>
                 </div>
-                <div className="flex flex-col gap-3 w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
+                <div className="flex flex-col  w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
                     <BiMessage className="text-4xl" />
                     <h3 className="mt-12 mb-6 text-white text-2xl">Text</h3>
                     <p>The cornerstone of interaction; summarize articles, generate
                         creative writing, assist with coding tasks and more
                     </p>
                 </div>
-                <div className="flex flex-col gap-3 w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
+                <div className="flex flex-col  w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
                     <BiMessage className="text-4xl" />
                     <h3 className="mt-12 mb-6 text-white text-2xl">Text</h3>
                     <p>The cornerstone of interaction; summarize articles, generate
                         creative writing, assist with coding tasks and more
                     </p>
                 </div>
-                <div className="flex flex-col gap-3 w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
+                <div className="flex flex-col  w-1/3 p-4 border-l border-gray-600 hover:border cursor-pointer">
                     <BiMessage className="text-4xl" />
                     <h3 className="mt-12 mb-6 text-white text-2xl">Text</h3>
                     <p>The cornerstone of interaction; summarize articles, generate
