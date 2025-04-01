@@ -1,12 +1,17 @@
 "use client"
+
+import { HiArrowUpRight } from 'react-icons/hi2';
+
+
+
 export default function Calculator() {
 
     return (
         <section className="mx-auto max-w-[1124px] mt-20">
             <div className="flex flex-col py-16">
-                <div className="flex justify-between items-center">
-                    <span className="text-5xl text-white font-semibold mb-16">Cost calculator</span>
-                    <button className="px-3 py-2 rounded-full border">REQUEST CUSTOM PRICING</button>
+                <div className="flex justify-between items-center mb-16">
+                    <span className="text-5xl text-white font-semibold  h-fit text-center">Cost calculator</span>
+                    <button className="px-3 py-2 rounded-full border flex gap-2 items-center text-white w-fit h-fit">REQUEST CUSTOM PRICING <HiArrowUpRight /> </button>
                 </div>
                 <div className="flex justify-between">
                     <span className="w-1/4">Model</span>
@@ -61,8 +66,8 @@ export default function Calculator() {
 
                 </form>
 
-                <span className="self-end  mt-6 text-[rgb(130, 133, 138)]">cost</span>
-                <span className="self-end text-6xl mt-4">30.00$</span>
+                <span className="self-end  mt-6 text-[rgb(130, 133, 138)] text-lg">Cost</span>
+                <span className="self-end text-6xl mt-4 text-white">30.00$</span>
 
 
             </div>
