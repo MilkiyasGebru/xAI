@@ -7,10 +7,11 @@ import Models from "@/components/Models";
 import ComingSoon from "@/components/ComingSoon";
 import Calculator from "@/components/Calculator";
 import NewsPage from "@/components/News";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-      <div className=" mx-auto gidole-regular text-neutral-400 relative">
+      <div className=" mx-auto font-[Gidole] text-neutral-400 relative">
           <Navbar />
           <Intro />
           <Features />
@@ -19,6 +20,7 @@ export default function Home() {
           <ComingSoon />
           <Calculator />
           <NewsPage />
+          <Footer />
       </div>
   );
 }
